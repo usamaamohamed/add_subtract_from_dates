@@ -240,7 +240,7 @@ short read_month(st_date date)
         {
             break;
         }
-        cout << "month " << month << " has only can't be " << date.day << " days.\n";
+        cout << "month " << month << " 2 can't be " << date.day << " days.\n";
         cin >> month;
     }
     return month;
